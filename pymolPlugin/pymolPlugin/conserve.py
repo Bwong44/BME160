@@ -2,9 +2,15 @@
 #Name: Brandon Wong (bwong44) 
 #Group Members: Tim Lee
 
-#!/usr/bin/env python3
-#Name: Brandon Wong (bwong44) 
-#Group Members: Tim Lee
+# This program calculates the conservation of residues across multiple protein sequences within pymol.
+# It also visualizes the conservation data.
+#
+# Dependencies: Install matpoltlib and Bio python packages within the PyMOL environment
+#
+# Input: The user must have the protein sequences loaded into PyMOL
+#
+# Output: File containing the protein sequences(fasta), conservation scores(txt file),
+#         heatmap of the residue frequencies(png), and alligned sequences(png)
 
 import matplotlib.pyplot as plt
 from matplotlib.colors import LinearSegmentedColormap
